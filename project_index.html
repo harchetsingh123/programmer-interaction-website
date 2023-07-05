@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
     <title></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2777dd37e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="p5.css">
+    <link rel="stylesheet" href="util.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="parallax.js"></script>
   </head>
@@ -78,25 +81,25 @@
            <div class="col-lg-4">
               <div class="mems">
                <img src="team1.jpg" alt="" class="img-fluid imgteam">
-               <h1>Mr Puppy Face</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit quod blanditiis quibusdam, ad, ab!</p>
-               <p><button type="button" class="btn btn-info">Contact &raquo</button></p>
+               <h1 class="mems_h1">Mr Puppy Face</h1>
+               <p class="mems_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit quod blanditiis quibusdam, ad, ab!</p>
+               <p><button type="button" class="btn mems_btn btn-info">Contact &raquo</button></p>
            </div>
            </div>
            <div class="col-lg-4">
               <div class="mems">
                <img src="team2.jpg" alt="" class="img-fluid imgteam">
-               <h1>Mr Fluffy</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex, similique rem temporibus aspernatur eum.</p>
-               <p><button type="button" class="btn btn-info">Contact &raquo</button></p>
+               <h1 class="mems_h1">Mr Fluffy</h1>
+               <p class="mems_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex, similique rem temporibus aspernatur eum.</p>
+               <p><button type="button" class="btn mems_btn btn-info">Contact &raquo</button></p>
                </div>
            </div>
            <div class="col-lg-4" >
               <div class="mems">
                <img src="team3.jpg" alt="" class="img-fluid imgteam" id="kitty">
-               <h1>Ms Kitty</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor blanditiis debitis vero maiores temporibus!</p>
-               <p><button type="button" class="btn btn-info">Contact &raquo</button></p>
+               <h1 class="mems_h1">Ms Kitty</h1>
+               <p class="mems_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor blanditiis debitis vero maiores temporibus!</p>
+               <p><button type="button" class="btn mems_btn btn-info">Contact &raquo</button></p>
                </div>
            </div>
        </div>
@@ -110,8 +113,8 @@
       
       <div class="row r1">
           <div class="col-md-7">
-              <h2 class="contentheading">Find your destined <span class="cntnt">team-mates</span> and built interesting things!</h2>
-                <p>
+              <h2 class="contentheading content_h2">Find your destined <span class="cntnt">team-mates</span> and built interesting things!</h2>
+                <p class="content_p">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fugiat consequatur consectetur et fugit est cum animi facilis non, voluptatibus molestias amet, eius rem voluptatem? Incidunt officiis id iste tempore quos atque eaque quasi?
                 </p>
           </div>
@@ -120,23 +123,38 @@
           </div>
       </div>
       
-      <div class="row r2">
+      <div class="row r2 not_hidden">
           <div class="col-md-5">
               <img src="content2.jpg" alt="" class="img-fluid mx-auto d-block">
           </div>
           
           <div class="col-md-7">
-              <h2 class="contentheading">Compete in exciting <span class="cntnt">coding contests</span> arranged among the hub members!</h2>
-              <p>
+              <h2 class="contentheading content_h2">Compete in exciting <span class="cntnt">coding contests</span> arranged among the hub members!</h2>
+              <p class="content_p">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ex, iusto necessitatibus porro odit est. Rerum possimus reprehenderit illo quis, temporibus sapiente veritatis aperiam tempora, itaque voluptate. Similique nemo repellendus dignissimos!
               </p>
+          </div>
+      </div>
+        
+         <div class="row r2 hidden">
+         
+          
+          <div class="col-md-7">
+              <h2 class="contentheading content_h2">Compete in exciting <span class="cntnt">coding contests</span> arranged among the hub members!</h2>
+              <p class="content_p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ex, iusto necessitatibus porro odit est. Rerum possimus reprehenderit illo quis, temporibus sapiente veritatis aperiam tempora, itaque voluptate. Similique nemo repellendus dignissimos!
+              </p>
+          </div>
+          
+           <div class="col-md-5">
+              <img src="content2.jpg" alt="" class="img-fluid mx-auto d-block">
           </div>
       </div>
          
           <div class="row r3">
           <div class="col-md-7">
-              <h2 class="contentheading">Discuss anything that tickles your geeks mind with <span class="cntnt">experts</span> from around the world!</h2>
-                <p>
+              <h2 class="contentheading content_h2">Discuss anything that tickles your geeks mind with <span class="cntnt">experts</span> from around the world!</h2>
+                <p class="content_p">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate fugiat consequatur consectetur et fugit est cum animi facilis non, voluptatibus molestias amet, eius rem voluptatem? Incidunt officiis id iste tempore quos atque eaque quasi?
                 </p>
           </div>
@@ -145,14 +163,14 @@
           </div>
       </div>
       
-      <div class="row r4" >
+      <div class="row r4 not_hidden" >
           <div class="col-md-5">
               <img src="content4.jpg" alt="" class="img-fluid mx-auto d-block">
           </div>
           
           <div class="col-md-7" id="special">
-              <h2 class="contentheading">Have a look at some interesting <span class="cntnt">blogs</span> that are written by fellow hub members!</h2>
-              <p>
+              <h2 class="contentheading content_h2">Have a look at some interesting <span class="cntnt">blogs</span> that are written by fellow hub members!</h2>
+              <p class="content_p">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ex, iusto necessitatibus porro odit est. Rerum possimus reprehenderit illo quis, temporibus sapiente veritatis aperiam tempora, itaque voluptate. Similique nemo repellendus dignissimos!
               </p>
               <p><button type="button" class="btn btn-secondary">Blogs &raquo</button></p>
@@ -160,8 +178,29 @@
       
       </div>
       
+      <div class="row r4 hidden" >
+         
+          
+          <div class="col-md-7" id="special">
+              <h2 class="contentheading content_h2">Have a look at some interesting <span class="cntnt">blogs</span> that are written by fellow hub members!</h2>
+              <p class="content_p">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ex, iusto necessitatibus porro odit est. Rerum possimus reprehenderit illo quis, temporibus sapiente veritatis aperiam tempora, itaque voluptate. Similique nemo repellendus dignissimos!
+              </p>
+              <p><button type="button" class="btn btn-secondary">Blogs &raquo</button></p>
+          </div>
+          
+           <div class="col-md-5">
+              <img src="content4.jpg" alt="" class="img-fluid mx-auto d-block">
+          </div>
+      
+      </div>
+      
   </div>
    
+   
+   <div class="footer">
+       <p>(c) Copyright 2022-2023 Harchet Singh</p>
+   </div>
    
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
